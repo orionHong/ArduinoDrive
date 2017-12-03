@@ -67,7 +67,9 @@ void httpPOSTResponse(EthernetClient client, char *clientRequest) {
         counter++;
       }
       Serial.println(F("Finished writing file"));
-      newFile.close();
+      newFile.close();  
+      client.println(F("HTTP/1.1 200 OK"));
+      client.println(F("Connection: close")); 
       htmlContentSending(client, "Victory!");
       Serial.println("Sent");
       client.flush();
