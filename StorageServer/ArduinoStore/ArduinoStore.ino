@@ -9,27 +9,12 @@
  * 
  * Software: C / Java
  * 
- * Ethernet shield cannot use sd card slot and ethernet at the same time, Therefore, a wifi module is needed.
- * Wifi module is still on the way, so we left all the wifi module code in comment
- * The code for wifi module has not been tested yet.
+ * Ethernet shield cannot use sd card slot and ethernet at the same time, Therefore, one can
+ * probably use I2C and have to arduinos working together. One for receiving and sending HTTP
+ * requests and responses, the other for writing files. This will be implemented later, after
+ * my busy final term period. :)
  * 
- * It had sent file once to the Java end, and that was the last successful file sending due to 
- * the SPI on the Arduino UNO, which is not able to do Ethernet and SD at the same time. After
- * it sent a file to Java end, all connection is lost. We will try to use ESP8266 Wifi shield.
- * However, the file sent to java was successfully received and saved to the local directory. 
- * 
- * Aside from the unstability of Internet connection, Arduino is fully capable of sending 
- * files and receiving files from java end. Java end is also fully capable of sending and receiving
- * files.
- * 
- * If there's no WiFi shield, one might need to comment out SD initialization code.
- * 
- * Arduino is capable of disdinguishing different file type, sending HTTP response, and recognizing HTTP request.
- * So does Java End.
- * 
- * Lots of work is dedicated into this project. :) Hope it will work fine.
- * 
- * 2017-11-23
+ * 2017-12-02
  */
  
 #include <SPI.h>
