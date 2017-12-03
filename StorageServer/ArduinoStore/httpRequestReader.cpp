@@ -154,6 +154,7 @@ char* getFileType(char* filename, int n) {
     int index = 12;
     int max = (strlen(clientRequest)-index) <= 9 ? strlen(clientRequest)-index : 9; //leaving one as null char
     memcpy(userAgent, clientRequest + index, max);
+    userAgent[9] = 0; // Setting the null character
     return userAgent;
 }
 
