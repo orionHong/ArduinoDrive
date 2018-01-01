@@ -17,7 +17,8 @@ public class ArduinoStoreGUI extends javax.swing.JFrame {
     
     private int index = -1;
     
-    // Set URL to connect o
+    // Set URL to connect 
+    // Adjust url depending on the server ip address
     private String link = "http://129.97.60.192";
     private DefaultListModel fList = new DefaultListModel();
     

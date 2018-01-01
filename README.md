@@ -22,3 +22,7 @@ Arduino ueses Ethernet shield and it needs to be connected with Ethernet. It cou
 ### Some thoughts about further development
 Hopefully create a more powerful and flexible library for every one who wants to use Arduino to build a online hardrive.
 <br> Probably connect Arduino with an actual drive instead of SD card. (Always wanted to do, but did not have enough time. I'll do it though).
+### Picture from Arduino side
+![alt text](arduino_pic.PNG)
+### Picture from java desktop
+![alt text](desktop_pic.png)
