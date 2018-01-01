@@ -1,12 +1,12 @@
 # Project - Cloud Storage
 **Group 42 - _Hongru Xiang_, _Jerry Huang_, _Taegoen Lee_**
-## Devices Used
-- Elegoo Uno R3
+## Tools Used
+- Arduino Uno R3
 - Ethernet Shield
 - Micro SD card - 2Gb
 
 **Software Component**
-- Arduino - C
+- Arduino - C/C++
 - Desktop app - Java
 
 ## To Start With
