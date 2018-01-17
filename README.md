@@ -10,9 +10,9 @@
 - Desktop app - Java: NetBeans
 
 ## To Start With
-*  File **_ArduinoStore_** is the Java desktop app. 
-	*  The source code is built with NetBeans IDE. If one could not run it, a NetBeans IDE might be needed to run the project.
-*File **_StorageServer_** is the Arduino source code.
+* File **_ArduinoStore_** is the Java desktop app. 
+	* The source code is built with NetBeans IDE. If one could not run it, a NetBeans IDE might be needed to run the project.
+* File **_StorageServer_** is the Arduino source code.
 ## Some Notes
 Arduino ueses Ethernet shield and it needs to be connected with Ethernet. It could not operate SD card and Ethernet port simultaneously. To improve it, one can get two arduinos with Ethernet Shield, and use I2C to communicate with each other. Although I failed to make them communicate with each other effectively.
 <br> **I'll try to make I2C communication possible sooner or later when I got time**
