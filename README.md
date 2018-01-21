@@ -24,7 +24,7 @@
 
 # Some Notes
 Arduino ueses Ethernet shield and it needs to be connected with Ethernet. It could not operate SD card and Ethernet port simultaneously. To improve it, one can get two arduinos with Ethernet Shield, and use I2C to communicate with each other. Although I failed to make them communicate with each other effectively.
-<br> **I'll try to make I2C communication possible sooner or later when I got time**
+<br> I'll try to make I2C communication possible sooner or later when I got time
 <br> Or to use a wifi module like ESP8266. Our ESP8266 is broken and cannot communicate with Arduino. I haven't tried using USB serial(FTDI), but theoratically if it cannot communicate with Arduino, it cannot work using USB serial either.
 <br>
 <br> With the Arduino source code, the Arduino can be a fully functioning server with some slight changes. It can read and response with HTTP request pretty well.
