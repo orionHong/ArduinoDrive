@@ -1,5 +1,5 @@
 # Project - Cloud Storage
-**Group 42 - _Hongru Xiang_, _Jerry Huang_, _Taegoen Lee_**
+**Team: _Hongru Xiang_, _Jerry Huang_, _Taegoen Lee_**
 ## Tools Used
 - Arduino Uno R3
 - Ethernet Shield
@@ -7,7 +7,7 @@
 
 **Software Component**
 - Arduino - C/C++: Arduino IDE
-- Desktop app - Java: NetBeans
+- Desktop app - Java: NetBeans, Java Swing
 
 ## Description
 * Arduino acts as the **server**, and the user interface for uploading and downloading files to and from Arduino.
